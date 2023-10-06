@@ -8,8 +8,6 @@ Spotting The Hacker is a program designed to detect errors in transmissions betw
 - [**Error Detection Algorithms**](#error-detection-algorithms)
 - [**Usage**](#usage)
 - [**File Structure**](#file-structure)
-- [**Contributing**](#contributing)
-- [**License**](#license)
 
 ## Overview
 
@@ -44,3 +42,16 @@ The 2D parity algorithm applies parity checks both vertically and horizontally, 
    ```bash
    gcc -o error_detection error_detection.c
 
+## File Structure
+
+1. **error_detection.c**: Contains the source code for the error detection algorithms.
+
+2. **White House Transmission Data - Parity.txt**: Input file for the parity error detection.
+
+3. **White House Transmission Data - Checksum.txt**: Input file for the checksum error detection.
+
+4. **White House Transmission Data - 2D Parity.txt**: Input file for the 2D parity error detection.
+
+
+
+ 
